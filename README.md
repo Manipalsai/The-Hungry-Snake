@@ -1,4 +1,3 @@
-
 # The Hungry Snake
 
 A fun and nostalgic **Snake Game** built using **HTML, CSS, and JavaScript**.
@@ -20,9 +19,11 @@ SnakeGame/
 ├── css/style.css
 ├── js/index.js
 ├── img/background_template.jpg
-├── music/song.mp3
+├── song/*.mp3
 ├── sound/*.mp3
-├── sound/*.mp3
+├── foodSound/*.mp3
+├── gameOver/*.mp3
+├── moves/*.mp3
 
 ```
 
@@ -30,10 +31,6 @@ SnakeGame/
 1. Clone the repo
 2. Open `index.html` in browser
 
-## 🙏 Credits
-- Background: Your image
-- Music: [source or free attribution]
-
 ---
 
-Built with ❤️ by [Your Name]
+Built By **Segu Manipal Sai**
