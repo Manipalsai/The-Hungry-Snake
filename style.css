@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: url("../background_template.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: serif;
+}
+
+#scoreBox {
+  position: absolute;
+  top: 10px;
+  right: 180px;
+  font-size: 38px;
+  font-weight: bold;
+  color: #222;
+}
+
+#hiScoreBox {
+  position: absolute;
+  top: 60px;
+  right: 130px;
+  font-size: 38px;
+  font-weight: bold;
+  color: #444;
+}
+
+#board {
+  background: linear-gradient(#e0ffe0, #ffffcc);
+  width: 90vmin;
+  height: 92vmin;
+  border: 2px solid #333;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.head {
+  background: linear-gradient(red, orange);
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.snake {
+  background-color: #6b2b8c;
+  border: 0.25vmin solid white;
+  border-radius: 10px;
+}
+
+.food {
+  background: linear-gradient(yellow, red);
+  border: 0.25vmin solid black;
+  border-radius: 50%;
+}
+
+button {
+  position: absolute;
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'New Tegomin', serif;
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#startBtn {
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
