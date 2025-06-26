@@ -3,7 +3,7 @@
 A fun and nostalgic **Snake Game** built using **HTML, CSS, and JavaScript**.
 
 ## 🎮 Live Demo
-👉 [Play The Hungry Snake](https://your-username.github.io/SnakeGame/)
+👉 [Play The Hungry Snake Game](https://manipalsai.github.io/The-Hungry-Snake/)
 
 ## 🛠 Features
 - Arrow key controls
@@ -11,14 +11,13 @@ A fun and nostalgic **Snake Game** built using **HTML, CSS, and JavaScript**.
 - Food system + sound
 - Game over on collision
 - Start button + background music
-- Responsive & hosted on GitHub Pages
-
+- 
 ## 📁 Structure
 SnakeGame/
 ├── index.html
-├── css/style.css
-├── js/index.js
-├── img/background_template.jpg
+├── style.css
+├── index.js
+├── background_template.jpg
 ├── song/*.mp3
 ├── sound/*.mp3
 ├── foodSound/*.mp3
