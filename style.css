@@ -7,7 +7,7 @@
 }
 
 .body {
-  background: url("../background_template.jpg") no-repeat center center;
+  background: url("background_template.jpg") no-repeat center center;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -70,7 +70,7 @@ button {
   font-size: 20px;
   font-weight: bold;
   font-family: 'New Tegomin', serif;
-  background-color: #f1c40f;
+  background-color: red;
   border: none;
   border-radius: 10px;
   cursor: pointer;
