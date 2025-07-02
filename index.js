@@ -102,17 +102,32 @@ let hiScore = localStorage.getItem("hiScore");
 hiScore = hiScore === null ? 0 : JSON.parse(hiScore);
 hiScoreBox.innerHTML = "High Score: " + hiScore;
 
-// Keyboard control
+
+//Key Board Controls
 window.addEventListener("keydown", (e) => {
-  inputDir = { x: 0, y: 1 };
-  moveSound.play();
   switch (e.key) {
-    case "ArrowUp": inputDir = { x: 0, y: -1 }; break;
-    case "ArrowDown": inputDir = { x: 0, y: 1 }; break;
-    case "ArrowLeft": inputDir = { x: -1, y: 0 }; break;
-    case "ArrowRight": inputDir = { x: 1, y: 0 }; break;
+    case "ArrowUp":
+      inputDir = { x: 0, y: -1 };
+      moveSound.play();
+      break;
+    case "ArrowDown":
+      inputDir = { x: 0, y: 1 };
+      moveSound.play();
+      break;
+    case "ArrowLeft":
+      inputDir = { x: -1, y: 0 };
+      moveSound.play();
+      break;
+    case "ArrowRight":
+      inputDir = { x: 1, y: 0 };
+      moveSound.play();
+      break;
+    default:
+      // Do nothing for other keys
+      break;
   }
 });
+
 
 // Start game
 const startBtn = document.getElementById("startBtn");
