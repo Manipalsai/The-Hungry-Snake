@@ -10,14 +10,14 @@ A fun and nostalgic **Snake Game** built using **HTML, CSS, and JavaScript**.
 - High Score with localStorage
 - Food system + sound
 - Game over on collision
-- Start button + background music
-- 
+- Start button + Restart button
+- Backgroud Music
+  
 ## 📁 Structure
 SnakeGame/
 ├── index.html
 ├── style.css
 ├── index.js
-├── background_template.jpg
 ├── song/*.mp3
 ├── sound/*.mp3
 ├── foodSound/*.mp3
